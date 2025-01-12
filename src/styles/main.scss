@@ -1,0 +1,32 @@
+@media (max-width: 1366px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    .flight-card {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        font-size: 10px;
+    }
+}
+.example {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.flight-card {
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
